@@ -5,73 +5,28 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Youtube Project</title>
-  <style>
-
-    p {
-      font-family: Arial, Helvetica, sans-serif;
-      margin-top: 0px;
-      margin-bottom: 0px;
-    }
-
-    .search-bar {
-      display: block;
-    }
-
-    .video-thumbnail {
-      width: 100%;
-      margin-bottom: 15px;
-      
-    }
-
-    .video-description {
-      display: grid;
-      grid-template-columns: 50px 1fr;
-      column-gap: 10px;
-    }
-
-    .profile-picture {
-      width: 50px;
-      border-radius: 30px;
-      ;
-    }
-    
-
-    .video-title {
-      font-weight: bold;
-      margin-bottom: 20px;
-      
-      
-    }
-
-    .video-author,
-    .video-stats {
-      font-size: 15px;
-      color: lightslategray;
-      margin-bottom: 5px;
-      
-    }
-
-    .video-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      column-gap: 40px;
-      row-gap: 40px;
-    }
-
-
-
-  </style>
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/video.css">
 </head>
 <body>
-  <input class="search-bar" type="text" placeholder="Search">
+  <div class="header">
+    <div class="left-section"></div>
+    <div class="middle-section">
+      <input class="search-bar" type="text" placeholder="Search">
+    </div>
+    <div class="right-section"></div>
+    
+  </div>
+  
   <div class="video-grid">
     <div class="video-preview">
       <div>
-        <img class="video-thumbnail" src="thumbnails/thumbnail-1.webp" alt="first thumbnail">
+        <img class="video-thumbnail" src="thumbnails/thumbnail-1.webp" alt="Picture of Marques and Sundar">
       </div>
       <div class="video-description">
         <div>
-          <img class="profile-picture" src="picture/channel-1.jpeg">
+          <img class="profile-picture" src="picture/channel-1.jpeg" alt="Marques Profile Picture">
         </div>
         <div>
           <p class="video-title">Talking tech and AI with Google CEO Sundar Pichai!</p>
