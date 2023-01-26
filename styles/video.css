@@ -1,5 +1,6 @@
     .video-thumbnail {
       width: 100%;
+      cursor: pointer;
       
       
     }
@@ -21,8 +22,13 @@
     .video-title {
       font-weight: bold;
       margin-bottom: 17px;
+      cursor: pointer;
       
       
+    }
+
+    .video-author{
+      cursor: pointer;
     }
 
     .video-author,
@@ -38,7 +44,7 @@
       grid-template-columns: 1fr 1fr 1fr;
       column-gap: 40px;
       row-gap: 40px;
-      background-color: rgb(243, 240, 240);
+      
     }
 
     .video-time {
