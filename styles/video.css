@@ -1,6 +1,6 @@
     .video-thumbnail {
       width: 100%;
-      margin-bottom: 15px;
+      
       
     }
 
@@ -39,3 +39,28 @@
       column-gap: 40px;
       row-gap: 40px;
     }
+
+    .video-time {
+      position: absolute;
+      right: 5px;
+      bottom: 9px;
+      background-color: black;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 700;
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-bottom: 5px;
+      padding-top: 5px;
+      border-radius: 3px;
+      
+      
+      
+    }
+
+    .thumbnail-row {
+      margin-bottom: 10px;
+      position: relative;
+    }
+
+    
